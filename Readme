@@ -28,7 +28,7 @@ http://librarysysworld.com:8080/marc_records_delete_java
 
 The source code and war file is located in https://github.com/andytang2008/marc_records_delete
 
-You could deploy war file to your Tomcat. The environment I use is windows 7. There are 3 jar file from Apache commons needed.
+You could deploy war file to your Tomcat. The environment I use is windows 7. The java version is 1.8.0_131. The Tomcat version is 9.0.14. There are 3 jar file from Apache commons needed.
 1.commons-fileupload-1.3.jar
 2.commons-io-2.6.jar
 3.commons-lang-2.6.jar
