@@ -7,7 +7,7 @@ Later, you can use other ALMA import profile to process this Marc file containin
 By this way, you avoid the verbose manipulation to divide big size Marc file into small ones which you imported one by one, saving you a lot of time.
 
 Appendix
-How do you get the 001 field list for imported records.
+How do you get the 035 field list for imported records.
 1. Before importing, using MarcEdit software to open your Marc file (.mrk) and copy 001 field to 035 field. (Key step). 
 2. After running import profile, click Resources > Monitor and View Imports.
 3. Select "report" menu from the job (click 3 dots button) and open the report
