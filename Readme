@@ -17,3 +17,5 @@ How do you get the 001 field list for imported records.
 7. Find the set you created and select "Members" by clicking 3 dots button.
 8. Click "Export List" button, export to excel file.
 9. In the Excel file, there is a field named "Record number". Copy all records number into a text file, and this is your 001 field list file for imported records.
+
+The demo is located in http://librarysysworld.com:8080/marc_records_delete_java, and you could use your 001 field list file and Marc file(.mrk) to make a test.
