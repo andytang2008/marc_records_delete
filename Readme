@@ -4,4 +4,4 @@ In order to get/receive all records (more than 1000) which are not imported, you
 
 Later, you can use other ALMA import profile to process this Marc file containing all "not imported" records.
 
-By this way, you avoid the verbose manipulation to divide big Marc file into small ones and importing them one by one, save you a lot of time.
+By this way, you avoid the verbose manipulation to divide big size Marc file into small ones and importing them one by one, save you a lot of time.
