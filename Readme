@@ -1,0 +1,7 @@
+ALMA has some limit for the number of records downloaded from Reports, which is 1000 records. If you have more than 1000 records marked as "not imported", you can only download first 1000 records. This broght huge inconvenience during batch upload.
+
+In order to get all records (more than 1000) which is not imported, you need the keep original Marc file (.mrk) before importing. After importing, you need to generated 001 field list file of imported records  by using ALma. Then, you use this java code to exclude imported records from original Marc file, and get all of Marc records of "not imported".
+
+Later, you can use other ALMA profile to process this Marc file containing all "not imported" records.
+
+By this way, you avoid the verbose manipluation to divide big Marc file into small ones.
