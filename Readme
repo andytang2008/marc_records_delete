@@ -5,3 +5,15 @@ In order to get/receive all records (more than 1000) which are not imported, you
 Later, you can use other ALMA import profile to process this Marc file containing all "not imported" records.
 
 By this way, you avoid the verbose manipulation to divide big size Marc file into small ones which you imported one by one, saving you a lot of time.
+
+Appendix
+How do you get the 001 field list for imported records.
+1. Before importing, using MarcEdit software to open your Marc file (.mrk) and copy 001 field to 035 field.
+2. After running import profile, click Resources > Monitor and View Imports.
+3. Select "report" menu from the job (click 3 dots button) and open the report
+4. For “Total records imported", Select "Create itemized title set" by clicking 3 dots button.
+5. Give the set name and save.
+6. Click Admin > Manage sets.
+7. Find the set you created and select "Members" by clicking 3 dots button.
+8. Click "Export List" button, export to excel file.
+9. In the Excel file, there is a field named "Record number". Copy all records number into a text file, and this is your 001 field list file for imported records.
