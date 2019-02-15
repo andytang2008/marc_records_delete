@@ -19,3 +19,12 @@ How do you get the 001 field list for imported records.
 9. In the Excel file, there is a field named "Record number". Copy all records number into a text file, and this is your 001 field list file for imported records.
 
 The demo is located in http://librarysysworld.com:8080/marc_records_delete_java, and you could use your 001 field list file and Marc file(.mrk) to make a test.
+
+You could deploy war file to your Tomcat. The environment I use is windows 7. There are 3 jar file from Apache commons needed.
+1.commons-fileupload-1.3.jar
+2.commons-io-2.6.jar
+3.commons-lang-2.6.jar
+
+Best!
+
+Andy
