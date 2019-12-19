@@ -22,7 +22,7 @@ How do you get the 035 field list for imported records.
 
 The demo is located in
 
-http://librarysysworld.com:8080/marc_records_delete_java
+http://librarysystemworld.net:8080/marc_records_delete_java
 
 , and you could use your 035 field list file and Marc file(.mrk) to make a test.
 
